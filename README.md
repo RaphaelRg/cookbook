@@ -1,7 +1,7 @@
 # cookbook
 
 ## Set-up
-This project is working on a Raspberry Pi 1.0 and is a local Web Server.
+This project is working on a Raspberry Pi B and is a local Web Server.
 
 You would need to set up your Raspberry with
   - Apache and PHP
