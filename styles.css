@@ -1,0 +1,303 @@
+html, body{
+    height: 100%;
+}
+     
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #ffecc9;
+    font-family: Sans-serif;
+    text-align: center;
+}
+
+#headfloater{
+    float: top;
+    margin: none;
+    height: 60px;
+    width: 100%;
+    background: #a00000;
+}
+ 
+#logo img{
+    width: 240px;
+    float: left;
+    margin: 13px;
+}
+
+#dropdown{
+    float: right;
+}
+#dropdown img{
+    height: 50px;
+    margin: 5px;
+}
+#dropdown-content {
+display: none;
+overflow: auto;
+position: absolute;
+right: 0;
+height: auto;
+width: 20%;
+background: #a00000;
+font-family: Sans-serif;
+font-size: 20pt;
+}
+
+#dropdown:hover #dropdown-content {
+display: block;
+}
+
+#dropdown-content a {
+display: block;
+text-align: right;
+color: #ffecc9;
+padding: 5px;
+text-decoration: none;
+}
+
+#dropdown-content a:hover {
+color: #FFFFFF;
+background-color: #00A4BD;
+}
+
+.formline {
+    width: 100%;
+    height: auto;
+
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.formfield{
+    font-size: 20pt;
+    margin: 0.5em;
+}
+
+#eintragenimg {
+    width: 100%;
+    overflow: hidden;
+}
+
+#eintragenphp {
+    font-size: 20pt;
+}
+
+.entry {
+    color: darkgreen;
+}
+
+.noentry {
+    color:crimson;
+}
+
+#retrievedrezepte {
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 100px;
+
+    font-size: 20pt;
+
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#retrievedrezept {
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    
+    margin-right: 10px;
+    margin-top: 5px;
+
+    flex-basis: 600px;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#retrievedrezeptleft {
+    width: auto;
+    height: 100px;
+
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#retrievedrezepttitel {
+    font-size: 20pt;
+    color: #404040;
+    text-align: left;
+}
+#retrievedrezeptjahr {
+    font-size: 18pt;
+    color: #404040;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+#retrievedrezeptright {
+    text-align: left;
+
+    width: auto;
+    height: 110px;
+
+    margin-top: 1.4em;
+    margin-left: 1em;
+}
+#retrievedrezeptgang {
+    font-size: 18pt;
+
+    font-weight: bold;
+    margin-bottom: 0.5em;
+
+    text-align: left;
+}
+#retrievedrezeptzutat {
+    font-size: 18pt;
+}
+
+h1, h2, h3{
+    font-size: 30pt;
+
+    margin-top: 0;
+    padding: 0;
+    color: #404040;
+}
+     
+p, ol, ul{
+    margin-top: 0;
+}
+ 
+p {
+    line-height: 180%;
+}
+ 
+ol, ul{
+    padding: 0;
+    list-style: none;
+}
+
+@media only screen and (max-width: 1100px) {
+    #headfloater{
+        float: top;
+        margin: none;
+        height: 150px;
+        width: 100%;
+        background: #a00000;
+    }
+    #logo img{
+        width: 600px;
+        float: left;
+        margin: 30px;
+    }
+    #dropdown img{
+        height: 100px;
+        margin: 20px;
+    }
+    #dropdown-content {
+    display: none;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    height: auto;
+    width: 40%;
+    font-size: 50pt;
+    }
+
+    .formfield{
+        font-size: 40pt;
+        margin: 0.5em;
+    }
+    
+    #eintragenphp {
+        font-size: 30pt;
+        width: 100%;
+    }
+    
+    #retrievedrezepte {
+        width: 100%;
+        height: auto;
+    
+        font-size: 40pt;
+
+        margin-bottom: 100px;
+    
+        align-items: center;
+        justify-content: center;
+    
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    #retrievedrezept {
+        border: black;
+        border-style: solid;
+        border-width: 3px;
+        
+        margin-right: 10px;
+        margin-top: 5px;
+    
+        flex-basis: 800px;
+        height: auto;
+    
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #retrievedrezeptleft {
+        width: auto;
+        height: 200px;
+    
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    #retrievedrezepttitel {
+        font-size: 40pt;
+        color: #404040;
+        text-align: left;
+    }
+    #retrievedrezeptjahr {
+        font-size: 28pt;
+        color: #404040;
+        text-align: center;
+        margin-top: 0.5em;
+    }  
+    #retrievedrezeptright {
+        text-align: left;
+    
+        width: auto;
+        height: 210px;
+    
+        margin-top: 1.1em;
+        margin-left: 1em;
+    }
+    #retrievedrezeptgang {
+        font-size: 28pt;
+    
+        font-weight: bold;
+        margin-bottom: 0.5em;
+    
+        text-align: left;
+    }
+    #retrievedrezeptzutat {
+        font-size: 28pt;
+    }
+    
+    h1, h2, h3{
+        font-size: 50pt;
+    
+        margin-top: 0;
+        padding: 0;
+        color: #404040;
+    }
+}
